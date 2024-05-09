@@ -75,7 +75,6 @@ const EdibleData = [
   {
     id: 9,
     img: img6,
-    img: img6,
     name: "Spicy instant noodle with special omelette",
     price: 3.59,
     desc: "17 Bowls available",

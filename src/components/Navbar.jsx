@@ -1,4 +1,3 @@
-import React from "react";
 import { useDispatch } from "react-redux";
 import { setSearch } from "../redux/slices/SearchSlice";
 import { CiSearch } from "react-icons/ci";
@@ -6,7 +5,7 @@ import { CiSearch } from "react-icons/ci";
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
-    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10">
+    <nav className="flex flex-col lg:flex-row justify-between py-3 mx-2 mb-10">
       <div>
         <h1 className="text-2xl font-bold text-[white]">Jaegar Resto</h1>
         <h3 className="text-xl font-normal text-[#E0E6E9]">
@@ -14,16 +13,16 @@ const Navbar = () => {
         </h3>
       </div>
       <div>
-        <div className="flex justify-center relative">
+        <div className="flex justify-center relative gap-5">
           <CiSearch className="absolute text-[white] w-[25px] h-[25px] top-[25%] left-[10px] " />
           <input
-            type="search"
+            type="text"
             name="search"
-            id=""
+            id="search"
             placeholder="Search for food, coffe, etc.. "
             autoComplete="off"
             onChange={(e) => dispatch(setSearch(e.target.value))}
-            className="p-3 border  bg-[#393C49] border-[transparent] text-sm rounded-lg outline-none w-full lg:w-[25vw] "
+            className="p-3 border  bg-[#393C49] border-[transparent] text-sm rounded-lg outline-none  w-[300px] pl-10  text-[#E0E6E9]"
           />
         </div>
       </div>
