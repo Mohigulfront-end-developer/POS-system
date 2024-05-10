@@ -22,22 +22,22 @@ const Payment = ({ playmentClick, setplaymentClick }) => {
               Payment Method
             </h2>
             <div className="flex justify-between items-center mt-[16px] text-center">
-              <div className="w-[101px] h-[64px] border border-[#393C49] p-[14px] rounded-md bg-transparent flex flex-col justify-center  hover:bg-[#252836]">
-                <TiCreditCard className="w-[20px] h-[14px]rounded-md text-[#ABBBC2] hover:text-white" />
-                <span className="text-[#ABBBC2] font-medium text-[14px] hover:text-white">
+              <div className="w-[101px] h-[64px] border border-[#393C49] p-[14px] rounded-md bg-transparent flex flex-col justify-center  hover:bg-[#252836] hover:text-white">
+                <span className="flex flex-col  items-center  text-[#ABBBC2] font-medium text-[14px] hover:text-white ">
+                  <TiCreditCard className="w-[30px] h-[30px]  rounded-md text-[#ABBBC2] hover:text-white" />
                   Credit Card
                 </span>
               </div>
-              <div className=" w-[101px] h-[64px] border border-[#393C49] p-[14px] rounded-md bg-transparent">
-                <RiPaypalLine className="w-[20px] h-[14px]rounded-md text-[#ABBBC2] hover:text-white" />
-                <span className="text-[#ABBBC2] font-medium text-[14px] hover:text-white">
+              <div className=" w-[101px] h-[64px] border border-[#393C49] p-[12px] rounded-md bg-transparent hover:bg-[#252836] hover:text-white">
+                <span className="flex flex-col  items-center  text-[#ABBBC2] font-medium text-[14px] hover:text-white">
+                  <RiPaypalLine className="w-[25px] h-[25px]  rounded-md text-[#ABBBC2] hover:text-white" />
                   Paypal
                 </span>
               </div>
-              <div className=" w-[101px] h-[64px] border border-[#393C49] p-[14px] rounded-md bg-transparent ">
-                <BsCashStack className="w-[20px] h-[14px]  rounded-md text-[#ABBBC2] hover:text-white r" />
-                <span className="text-[#ABBBC2] font-medium text-[14px]">
-                  Credit Card
+              <div className="w-[101px] h-[64px] border border-[#393C49] p-[12px] rounded-md bg-transparent hover:bg-[#252836]  ">
+                <span className="flex flex-col  items-center  text-[#ABBBC2] font-medium text-[14px] hover:text-white">
+                  <BsCashStack className="w-[25px] h-[25px]  rounded-md text-[#ABBBC2] hover:text-white" />
+                  Cash
                 </span>
               </div>
             </div>

@@ -20,7 +20,17 @@ const OrderBasket = ({ setplaymentClick }) => {
         <div className="flex justify-between items-center my-3">
           <span className="text-xl font-bold text-white">Orders #34562</span>
         </div>
-        <div className=""></div>
+        <div className="flex justify-left gap-[10px] items-center mt-[24px]">
+          <button className="w-[80px] h-[42px] p-[8px] bg-transparent text-[#EA7C69] border border-[#252836] rounded-md hover:text-white hover:bg-[#EA7C69]">
+            Dine In
+          </button>
+          <button className="w-[70px] h-[42px] p-[8px] bg-transparent text-[#EA7C69] border border-[#252836] rounded-md hover:text-white hover:bg-[#EA7C69] ">
+            To Go
+          </button>
+          <button className="w-[85px] h-[42px] p-[8px] bg-transparent text-[#EA7C69] border border-[#252836] rounded-md hover:text-white hover:bg-[#EA7C69]">
+            Delivery
+          </button>
+        </div>
         <div className="text-[white] flex justify-between font-semibold text-[20px] items-center py-[20px] border-b-2 border-[#252836]">
           <h3>Item</h3>
           <div className="flex justify-between items-center gap-4">
