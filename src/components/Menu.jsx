@@ -23,7 +23,7 @@ const Menu = () => {
 
   return (
     <div className="ml-6 ">
-      <div className="my-5 flex gap-3 overflow-x-scroll scroll-smooth lg:overflow-x-hidden ">
+      <div className="my-5 flex gap-6 overflow-x-scroll scroll-smooth lg:overflow-x-hidden ">
         {categories.map((category, index) => {
           return (
             <div
@@ -36,7 +36,7 @@ const Menu = () => {
             >
               <button
                 onClick={() => dispatch(setCategory(category))}
-                className={`px-3 py-2  font-bold  ${
+                className={` py-2  font-bold  ${
                   selectedCategory === category
                     ? "text-[#EA7C69]"
                     : "rounded-lg hover:border-b-[#EA7C69] text-[#fff]"

@@ -5,6 +5,7 @@ import { MdOutlineMail } from "react-icons/md";
 import { LuPieChart } from "react-icons/lu";
 // import { PiSealPercentThin } from "react-icons/pi";
 import { RxExit } from "react-icons/rx";
+import { HiOutlineReceiptPercent } from "react-icons/hi2";
 
 const SidebarLeft = () => {
   return (
@@ -22,31 +23,31 @@ const SidebarLeft = () => {
         </li>
         <li className="flex  justify-center w-[108px] cursor-pointer h-20 items-center p-3 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center sidebar__icon ">
-            <VscHome size={25} className="" />
+            <HiOutlineReceiptPercent size={25} className="" />
           </div>
         </li>
 
-        <li className="flex justify-center w-[102px] cursor-pointer h-20 items-center p-3 relative">
+        <li className="flex justify-center w-[108px] cursor-pointer h-20 items-center p-3 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center sidebar__icon">
             <LuPieChart size={25} className="" />
           </div>
         </li>
-        <li className="flex justify-center w-[102px] cursor-pointer h-20 items-center p-3 relative">
+        <li className="flex justify-center w-[108px] cursor-pointer h-20 items-center p-3 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center sidebar__icon">
             <MdOutlineMail size={25} className="" />
           </div>
         </li>
-        <li className="flex justify-center w-[102px] cursor-pointer h-20 items-center p-3 relative">
+        <li className="flex justify-center w-[108px] cursor-pointer h-20 items-center p-3 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center sidebar__icon">
             <IoNotificationsOutline size={25} className="" />
           </div>
         </li>
-        <li className="flex justify-center w-[102px] cursor-pointer h-20 items-center p-3 relative">
+        <li className="flex justify-center w-[108px] cursor-pointer h-20 items-center p-3 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center sidebar__icon">
             <IoSettingsOutline size={25} className="" />
           </div>
         </li>
-        <li className="flex justify-center w-[102px] cursor-pointer h-20 items-center p-3] mt-8 relative">
+        <li className="flex justify-center w-[108px] cursor-pointer h-20 items-center p-3] mt-8 relative">
           <div className="w-[56px] h-[56px] flex justify-center items-center  sidebar__icon">
             <RxExit size={25} className="" />
           </div>
